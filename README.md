@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/Yocanantham/Practice_social-proof-section.git)
-- Live Site URL: (https://yocanantham.github.io/Practice_3-column-preview-card/)
+- Live Site URL: (https://yocanantham.github.io/Practice_social-proof-section/)
 
 ## My process
 
