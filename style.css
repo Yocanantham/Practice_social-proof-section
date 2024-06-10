@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "League Spartan", sans-serif;
+    padding: 5rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('images/bg-pattern-top-desktop.svg') no-repeat top left 100%, url('images/bg-pattern-bottom-desktop.svg') no-repeat bottom right 100%;
+}
+
+.main {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 3.5rem;
+    min-width: 300px;
+    max-width: 1440px;
+}
+/* ! Summary */
+
+.summary {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 1 600px;
+}
+
+.summary h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.summary p {
+    color: hsl(303, 10%, 53%);
+    line-height: 1.4rem;
+}
+
+/* ! Rating */
+
+.rating {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    flex: 1 1 600px;
+}
+
+.light_background {
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 15px;
+    
+}
+.rating_A {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.rating_B {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.rating_C {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.flex_start, .center, .flex_end {
+    padding: 1.5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.rating_text {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+
+/* ! Reveiwers */
+
+.reviwers img, .reviwers span {
+    display: block;
+}
+.reviewers {
+    min-height: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 5rem;
+}
+.dark_background {
+    background-color: hsl(300, 43%, 22%);
+}
+.reviewers_A {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0 1 350px;
+}
+.reviewers_B {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 350px;
+}
+.reviewers_C {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 0 1 350px;
+}
+.flex_start_A, .center_A, .flex_end_A {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    min-height: 150px;
+    padding: 1.9rem;
+    border-radius: 15px;
+}
+
+
+/* ? details */
+.details {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 1rem;
+}
+.details img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.name {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    padding: 0.35rem 0rem;
+}
+.verified {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+.content {
+    color: hsl(300, 24%, 96%);
+    line-height: 1.4rem;
+}
